@@ -1,0 +1,27 @@
+.main-container {
+  size: 100dvh 100dvw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#home-section {
+  background-color: rgb(22, 26, 34);
+  color: rgb(243, 239, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.in-container {
+  width: 100dvw;
+  height: 100dvh;
+}
+
+/* 
+    Developer: Arabela R. Turdanes
+    Date of creation: February 7, 2025 @ 12:00 pm
+
+    This CSS file serves as an external stylesheet for the HTML file <arturdanes_exer02.html>.
+*/
