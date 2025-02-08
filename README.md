@@ -10,7 +10,7 @@
 skills in management and programming, and details about my previous projects. This project was created for me to showcase my skills
 as a software developer. 
 
-You can access the website through this [link](https://github.com/CMSC-100-2S-AY2024-2025/exer-01-html-and-css-arturdanes.git).
+You can access the website through this [link](https://cmsc-100-2s-ay2024-2025.github.io/exer-01-html-and-css-arturdanes/).
 
 # Steps on how to create GitHub page
 
