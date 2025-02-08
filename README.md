@@ -24,5 +24,15 @@ Then, you can commit your changes with a commit comment/message.
 
 Finally, you can go to your project site at http://username.github.io/repository.
 
+# My Takeaways from this Project
+
+First of all, I'm really not familiar with Git and Github. My repositories are always stored in my personal computer and
+some remote storage like the Google Drive. Now, I'm still barely keeping up but I'm trying my best.
+
+Through this project, I learned how to make my own portfolio, showcasing my skills, and create GitHub Pages.
+I also learned how to commit and push my repo changes to my remote repository.
+
+It's a new concept but a more convenient one.
+
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/hMVHYWFS)
