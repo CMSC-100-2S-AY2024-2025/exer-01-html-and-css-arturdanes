@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,100..900;1,100..900&display=swap');
 
-p, div {
+p, div, footer {
   font-family: "Labrada", serif;
 }
 
@@ -11,6 +11,7 @@ p, div {
   flex-direction: column;
   margin: 0px;
   padding: 0px;
+  background-color: rgb(27, 11, 1);
 }
 
 .in-container {
@@ -19,6 +20,9 @@ p, div {
   height: fit-content;
 }
 
+/* 
+  HOME SECTION
+*/
 #home-section {
   background-color: rgba(121, 82, 0, 0.3);
   background-image: url(./images/home-bg.jpg);
@@ -80,6 +84,9 @@ p, div {
   font-size: 90px;
 }
 
+/* 
+  ABOUT DEVELOPER
+*/
 
 #about-developer {
   background-color: rgb(51 32 5);
@@ -135,6 +142,10 @@ h1 {
   font-weight: 500;
 }
 
+/* 
+  SKILLS SECTION
+*/
+
 #skills-section {
   background-color: rgb(51 32 5);
   background-image: url(./images/skills-bg.jpg);
@@ -182,7 +193,9 @@ h1 {
   padding-top: 10px;
 }
 
-/* PROJECTS SECTION */
+/* 
+  PROJECTS SECTION 
+*/
 #projects-section {
   background-color: rgb(51 32 5);
   background-image: url(./images/projects-bg.jpg);
@@ -225,8 +238,70 @@ h1 {
   color: rgb(214, 168, 69);
 }
 
+/* 
+  FOOTER
+*/
 
+footer {
+  background-color: rgb(8, 2, 0);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  height: fit-content;
+  width: 100%;
+}
 
+#footer-left {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(214, 168, 69);
+  margin: 10px;
+}
+
+footer p {
+  text-align: center;
+  width: 200px;
+  font-size: 15px;
+  color: rgb(214, 168, 69);
+  margin: 5px;
+}
+
+#copyright {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* 
+  SCROLL BEHAVIORS / TRANSITIONS
+*/
+
+#about-developer, #skills-section, #projects-section {
+  animation: scroll-reveal;
+  animation-timeline: view(block);
+  animation-range: cover 0% cover 50%;
+  margin: 0px;
+}
+
+@keyframes scroll-reveal {
+  from {
+    color: rgba(88, 58, 0, 0.8);
+    /* margin-top: 100vh; */
+    filter: blur(80px);
+    opacity: 0.5;
+  }
+  to {
+    /* margin-top: 0px; */
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 
 
@@ -244,7 +319,8 @@ h1 {
   dev-img - developer's picture
   home-bg - Photo by brooklyn on Unsplash.
   about-bg - Photo by Pawel Czerwinski on Unsplash
-      
-  Fonts:
 
+  Transitions:
+  Blur transition on scroll - Scroll transition by Mince on FreeFrontend https://codepen.io/Gitguy2328_xprogram/pen/mdggeJK
+  
 */
